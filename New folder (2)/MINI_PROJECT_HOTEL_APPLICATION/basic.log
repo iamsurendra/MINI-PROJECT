@@ -1,0 +1,71 @@
+INFO - In Add AdminRegister
+INFO - Input is AdminRegister [adminId=0, adminUserName=surendra888, password=suri@705, mobile=9440069705, address=Nellore, email=null]
+ERROR - Error in insert = ORA-02289: sequence does not exist
+
+INFO - In Add AdminRegister
+INFO - Input is AdminRegister [adminId=0, adminUserName=surendra, password=surendra, mobile=9440069705, address=Nellore, email=iamsurendra@gmail.com]
+ERROR - Error in insert = Missing IN or OUT parameter at index:: 6
+INFO - In Add AdminRegister
+INFO - Input is AdminRegister [adminId=0, adminUserName=surendra, password=surendra, mobile=9440069705, address=Nellore, email=iamsurendra@gmail.com]
+ERROR - Error in insert = ORA-12899: value too large for column "SYSTEM"."ADMINREGISTER"."EMAIL" (actual: 21, maximum: 20)
+
+INFO - In Add AdminRegister
+INFO - Input is AdminRegister [adminId=0, adminUserName=surendra, password=surendra, mobile=9440069705, address=Nellore, email=iamsurendra@gmail.com]
+INFO - In getAdminId
+INFO - Got Admin User With Id2
+INFO - Completed getAdminId
+INFO - Inserted successfully and Id is = 2
+INFO - In Add UserRegister
+INFO - Input is UserRegister [userId=0, userName=surendra, password=surendra, mobile=9440069705, address=Nellore, email=iamsuri@gmail.com, role=Java]
+INFO - In getUserId
+INFO - Got  User With account number1
+INFO - Completed getUserId
+INFO - Inserted successfully and Customer Number  is = 1
+INFO - In Add AdminRegister
+INFO - Input is AdminRegister [adminId=105, adminUserName=surendra888, password=suri@705, mobile=9440069705, address=Nellore, email=iamsurendra@gmail.com]
+INFO - In getAdminId
+INFO - Got Admin User With Id3
+INFO - Completed getAdminId
+INFO - Inserted successfully and Id is = 3
+INFO - In Add AdminRegister
+INFO - Input is AdminRegister [adminId=0, adminUserName=admin, password=admin, mobile=9440069705, address=Nellore, email=iamsurendra@gmail.com]
+INFO - In getAdminId
+INFO - Got Admin User With Id1
+INFO - Completed getAdminId
+INFO - Inserted successfully and Id is = 1
+INFO - In add Employee
+INFO - input is HotelDetails [hotelId=null, hotelName=near, city=vrc, address=Nellore, description=Itis, avgRatePerNight=amazing, phone=944069705, rating=5, email=iamsurendra@gmail.com, fax=9440069705]
+INFO - In getHotelId
+INFO - Got Hotel with id1
+INFO - Completed getemplyeeId
+INFO - inserted successfully and id is= 1
+INFO - In add HotelDetails
+INFO - input is HotelDetails [hotelId=null, hotelName=Kritunga, city=Bangalore, address=Marathalli, description=Near, avgRatePerNight=More, phone=9440069705, rating=4.5, email=iamsuri@gmail.com, fax=9440069705]
+INFO - In getHotelId
+INFO - Got Hotel with id2
+INFO - Completed getemplyeeId
+INFO - inserted successfully and id is= 2
+INFO - In add HotelDetails
+INFO - input is HotelDetails [hotelId=null, hotelName=Meghana, city=Bnagalore, address=Marathalli, description=NearBrige, avgRatePerNight=3.5, phone=9440069705, rating=3.0, email=suri@gmail.com, fax=9440066442]
+INFO - In getHotelId
+INFO - Got Hotel with id1
+INFO - Completed getemplyeeId
+INFO - inserted successfully and id is= 1
+INFO - In add HotelDetails
+INFO - input is HotelDetails [hotelId=null, hotelName=Surendra, city=Empire, address=Nellore, description=NEArMain,road, avgRatePerNight=3.5, phone=9440069705, rating=54, email=iams@.com, fax=5]
+INFO - In getHotelId
+INFO - Got Hotel with id2
+INFO - Completed getHotelId
+INFO - inserted successfully and id is= 2
+INFO - In add HotelDetails
+INFO - input is HotelDetails [hotelId=null, hotelName=Nellore, city=Surendra, address=Nellore, description=Surendra, avgRatePerNight=5, phone=9440069705, rating=5, email=suri@gmail.com, fax=9440069705]
+INFO - In getHotelId
+INFO - Got Hotel with id3
+INFO - Completed getHotelId
+INFO - inserted successfully and id is= 3
+INFO - In Add UserRegister
+INFO - Input is UserRegister [userId=0, userName=surendra, password=surendra, mobile=9440069705, address=Nellore, email=iamsurendra, role=Javadeveloper]
+INFO - In getUserId
+INFO - Got  User With account number1
+INFO - Completed getUserId
+INFO - Inserted successfully and Customer Number  is = 1
